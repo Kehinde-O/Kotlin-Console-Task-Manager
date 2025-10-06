@@ -6,7 +6,7 @@ This software is a comprehensive console-based task management application built
 
 The purpose of this project was to master Kotlin's modern language features while building a practical application that demonstrates both basic and advanced programming concepts. Through this implementation, I gained hands-on experience with Kotlin's concise syntax, null safety, extension functions, and functional programming capabilities that make it a powerful alternative to Java for JVM development.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video - https://youtu.be/QmwiUW3ovVw](https://youtu.be/QmwiUW3ovVw)
 
 # Development Environment
 
@@ -63,7 +63,6 @@ Before running the project, ensure you have the following installed:
 ### Method 1: Compile and Run JAR
 ```bash
 # Navigate to project directory
-cd "/Users/kehindeomotoso/BYU Idaho/CSE310/Kotlin Console Task Manager"
 
 # Compile the Kotlin file with runtime included
 kotlinc TaskManager.kt -include-runtime -d TaskManager.jar
@@ -75,7 +74,6 @@ java -jar TaskManager.jar
 ### Method 2: Direct Kotlin Execution
 ```bash
 # Navigate to project directory
-cd "/Users/kehindeomotoso/BYU Idaho/CSE310/Kotlin Console Task Manager"
 
 # Compile to class files
 kotlinc TaskManager.kt -d .
